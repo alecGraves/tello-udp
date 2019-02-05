@@ -46,6 +46,7 @@ myTello.send("land")
 * ```cw x``` = rotate clockwise ```x``` degrees
 * ```flip f/b/l/r``` = flip forward/back/left/right
 * ```battery?``` = return current battery ("100" for 100%)
+* Full command list is available at the [Ryze Tello Page](https://www.ryzerobotics.com/tello/downloads)
 
 
 ## Known Issues
