@@ -2,10 +2,9 @@
 Dead-simple code for connecting to the Ryze Tello with udp and python
 
 ## Manual Usage
-* Connect to the tello's network
+* Connect to the tello's wi-fi network
 * ```python tello.py ```
 * Just type a command (see below) and press enter to send it.
-* press ctrl+c to stop python (stopping python will not make the drone land!)
 
 ## Example Program
 ```python
