@@ -51,4 +51,4 @@ myTello.send("land")
 
 ## Known Issues
 * The Tello connection will time out in 15 seconds of no messages, causing the drone to land.
-This should be resolved by threading to periodically send messages is implemeneted.
+This should be resolved by threading to periodically send messages.
