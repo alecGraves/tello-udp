@@ -1,5 +1,5 @@
 # tello-udp
-Connecting to the Ryze Tello with udp and python
+Dead-simple code for connecting to the Ryze Tello with udp and python
 
 ## Manual Usage
 * Connect to the tello's network
@@ -50,4 +50,4 @@ myTello.send("land")
 
 ## Known Issues
 * The Tello connection will time out in 15 seconds of no messages, causing the drone to land.
-This should be resolved when threading to periodically send messages is implemeneted.
+This should be resolved by threading to periodically send messages is implemeneted.
