@@ -4,7 +4,8 @@ Dead-simple code for connecting to the Ryze Tello with udp and python
 ## Manual Usage
 * Connect to the tello's network
 * ```python tello.py ```
-* now you can send messages to the tello.
+* Just type a command (see below) and press enter to send it.
+* press ctrl+c to stop python (stopping python will not make the drone land!)
 
 ## Example Program
 ```python
@@ -34,7 +35,7 @@ myTello.send("land")
 ```
 
 ## Message Guide
-* ```connect``` = reconnect and exit emergency mode
+* ```connect``` = enable commands, also resets emergency mode
 * ```takeoff``` = take off, hovering at approximately 1 meter
 * ```land``` = gradually land
 * ```emergency``` = immediately stop all motors, causing the drone to fall out of the sky
@@ -45,7 +46,7 @@ myTello.send("land")
 * ```ccw x``` = rotate counter-clockwise ```x``` degrees
 * ```cw x``` = rotate clockwise ```x``` degrees
 * ```flip f/b/l/r``` = flip forward/back/left/right
-* ```battery?``` = return current battery as an int percentage (100 for 100%)
+* ```battery?``` = return current battery ("100" for 100%)
 
 
 ## Known Issues
