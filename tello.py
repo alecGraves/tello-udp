@@ -10,7 +10,7 @@ class Tello(object):
     def __init__(self, interface=2):
         self.sock = socket.socket(socket.AF_INET, # Internet
                socket.SOCK_DGRAM, socket.IPPROTO_UDP) # UDP
-        self.sock.setsockopt(socket.IPPROTO_IP, socket.IP_MULTICAST_TTL, interface)
+        # self.sock.setsockopt(socket.IPPROTO_IP, socket.IP_MULTICAST_TTL, interface)
         self.sock.settimeout(2)
     def send(self, message):
         ret = self.sock.sendto(bytes(message, 'utf-8'), (UDP_IP, UDP_PORT))
